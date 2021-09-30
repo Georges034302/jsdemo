@@ -1,14 +1,10 @@
-let arrow = (num, center) => {
-    return Math.pow(num - center, 2);
-}
-
 let print = () => {
-    var nums = [];
+    var numbers = [];
     var num = document.getElementById("num").value;
     for (let i = 1; i <= num; i++) {
-        var center = i / 2;
-        nums.push(arrow(i, center));
+        numbers.push(i);
     }
-    console.log(nums);
-    document.getElementById("displayDiv").innerHTML = "[" + nums.toString() + "]";
+    var mapArray = numbers.map(x => x + 1);
+    console.log(mapArray);
+    document.getElementById("displayDiv").innerHTML = "[" + numbers.toString() + "] ---mapped---> [" + mapArray.toString() + "]";
 }
