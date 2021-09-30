@@ -1,0 +1,58 @@
+        .display {
+            position: absolute;
+            left: 60%;
+            right: 0;
+            top: 16%;
+            font-size: 36px;
+            color: #b1230a;
+            padding: 3px;
+            text-align: center;
+            opacity: 0.8;
+        }
+        
+        .input {
+            position: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            height: 20%;
+            left: 0;
+            right: 0;
+            top: 10%;
+            font-size: 28px;
+            padding: 10px;
+            text-align: center;
+            opacity: 0.8;
+            border: 4px dotted rgb(0, 173, 52);
+        }
+        
+        .clock {
+            position: fixed;
+            background-color: #1d1d1d;
+            left: 35%;
+            top: 30%;
+            font-size: 46px;
+            color: #afeb00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0.8;
+            border: 5px solid #1568b6;
+            border-radius: 25px;
+            background: #090a07;
+            padding: 20px;
+            width: 20%;
+            height: 30%;
+        }
+        
+        .displayJson {
+            position: absolute;
+            left: 40%;
+            right: 0;
+            top: 16%;
+            font-size: 14px;
+            color: #b1230a;
+            padding: 3px;
+            text-align: left;
+            opacity: 0.8;
+        }
