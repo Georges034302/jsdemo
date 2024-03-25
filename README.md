@@ -10,6 +10,3 @@ Basic JS Functions Demo
 * Asynchronous functions
 * Built-in functions
 
-```
-Demo PDF: https://shorturl.at/kyAP2
-```
